@@ -5,3 +5,6 @@ content.classList.add('content');
 content.textContent = 'This is the glorious text-content!';
 
 container.appendChild(content);
+
+const para = documen.createElement('p');
+para.classList
