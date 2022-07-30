@@ -6,5 +6,10 @@ content.textContent = 'This is the glorious text-content!';
 
 container.appendChild(content);
 
-const para = documen.createElement('p');
-para.classList
+const para = document.createElement('p');
+para.classList.add('para');
+para.textContent = 'Hey I\'m red';
+
+para.style.color = 'red';
+
+container.appendChild(para);
