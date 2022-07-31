@@ -31,9 +31,8 @@ const headOne = document.createElement('h1');
 headOne.textContent = 'I \'m in a div';
 ncont.appendChild(headOne);
 
-
-
-
-
+const paraTwo =document.createElement('p');
+paraTwo.textContent = 'ME TOO!';
+ncont.appendChild(paraTwo);
 
 container.appendChild(ncont);
