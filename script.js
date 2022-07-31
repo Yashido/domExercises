@@ -27,8 +27,11 @@ ncont.style.border = 2;
 ncont.style.borderColor = 'black';
 ncont.style.backgroundColor = 'pink';
 
-const paratwo = document.createElement('p');
-paratwo.classList.add
+const headOne = document.createElement('h1');
+headOne.textContent = 'I \'m in a div';
+ncont.appendChild(headOne);
+
+
 
 
 
