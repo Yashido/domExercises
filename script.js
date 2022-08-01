@@ -36,3 +36,6 @@ paraTwo.textContent = 'ME TOO!';
 ncont.appendChild(paraTwo);
 
 container.appendChild(ncont);
+
+const btn = document.querySelector('#btn');
+btn.onclick = () => alert("Hello World");
