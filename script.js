@@ -39,3 +39,19 @@ container.appendChild(ncont);
 
 const btn = document.querySelector('#btn');
 btn.onclick = () => alert("Hello World");
+
+const btntwo = document.querySelector('#btntwo');
+btntwo.addEventListener('click', () => {
+    alert("Hello World")
+})
+
+function alertFunction() {
+    alert("YAY! YOU DID IT!");
+}
+
+btn.addEventListener('click', alertFunction);
+
+const btnthree = document.querySelector('#btnthree');
+btnthree.addEventListener('click', function(e){
+    e.target.style.background = 'blue';
+});
